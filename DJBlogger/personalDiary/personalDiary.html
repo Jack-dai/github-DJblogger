@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+          maximum-scale="1.0" minimum-scale="1.0" user-scalable="yes">
+    <title>代俊的个人博客-个人日记</title>
+    <link rel="stylesheet" href="../utils/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../commonPrototype/style.css"/>
+    <link rel="stylesheet" href="personalDiary.css"/>
+</head>
+<body>
+<div id="homepage">
+    <header-component></header-component>
+    <nav-component></nav-component>
+    <div id="nav_warp">
+        <span>&</span><a href="../index/index.html">首页</a><span>></span><h1>个人简历</h1>
+    </div>
+
+    <div id="mainContent">
+        <div id="MC_first">
+            <h2>基本资料</h2>
+            <p class="text">姓名：代俊</p>
+            <p class="text">性别：男</p>
+            <p class="text">年龄：22</p>
+            <p class="text">微信：daijun103</p>
+            <p class="text">QQ：1125699059</p>
+            <p class="text">联系电话：18708134174</p>
+            <p class="text">邮箱：1125699059@qq.com</p>
+            <p class="text">求职意向：html5前端工程师</p>
+        </div>
+        <div id="MC_second">
+            <h2>教育背景</h2>
+            <p class="text">毕业院校：成都东软学院</p>
+            <p class="text">学历：本科</p>
+            <p class="text">专业：软件工程</p>
+        </div>
+        <div id="MC_third">
+            <h2>职业技能</h2>
+            <p class="text">能够熟练的运用Html5、CSS/CSS3、JavaScript等前端技术，熟悉Html5的新特性；</p>
+            <p class="text">了解并且能够运用JSON、DOM、XML、Node.js、Ajax等相关技术；</p>
+            <p class="text">掌握jQuery、Bootstrap、AngularJS、Vue.js等前端开发框架，能够对页面进行响应式布局；</p>
+            <p class="text">熟悉java语言，有JSP、Servlet方面的知识，了解MVC框架；</p>
+            <p class="text">了解SQL Server数据库，能够用SQL语句编写基本的CRUD操作；</p>
+            <p class="text">了解Web标准和浏览器兼容，能编写符合W3C标准、兼容各种浏览器的前端页面代码；</p>
+            <p class="text">对Html5技术领域、新兴的Web标准和Web发展趋势有很高的关注度，能够主动的了解并学习前端新技术；</p>
+            <p class="text">有良好的代码书写风格和编程习惯，熟悉html5的语义化；</p>
+            <p class="text">对于英语有一定的听书读写能力，能够看懂相关的技术文档；</p>
+            <p class="text">有责任心、良好的团队沟通能力和团队合作精神，愿意融入团队长期发展。</p>
+        </div>
+        <div id="MC_fourth">
+            <h2>项目经验</h2>
+            <h3>个人博客</h3>
+            <p class="text">一个类似于网站式的博客网页；</p>
+            <p class="text">使用Div+CSS+Bootstrap对页面框架进行布局；</p>
+            <p class="text">使用js+jQuery+vue.js对页面进行交互操作；</p>
+            <p class="text">页面之间能够良好交互。</p>
+            <h3>飞机大战游戏</h3>
+            <p class="text">基本原理：</p>
+            <p class="text">游戏中使用Canvas+jQuery对页面不断地刷帧达到游戏中不断地运动的效果；</p>
+            <p class="text">使用随机函数对石头下落进行控制；</p>
+            <p class="text">通过控制键盘的按键来对游戏中飞机的运动方向和子弹的发射进行控制；</p>
+            <p class="text">使用矩形碰撞检测对游戏中飞机和石头相撞进行判断；</p>
+            <p class="text">改进：</p>
+            <p class="text">对于游戏中许多操作相似的类让它继承一个游戏精灵(Spirit)类，比如：许多需要 画飞机、石头、子弹、失败界面和成功界面可以继承一个Spirit类，这样可以使代码复用，也可以减少空间复杂度。</p>
+            <p class="text">使用多个Canvas重叠，每个Canvas负责游戏中不同的部分，这样能够提高画布的擦除效率同时提高游戏的效率。</p>
+            <h3>视频播放器</h3>
+            <p class="text">基本原理：</p>
+            <p class="text">使用video标签、jQuery和原生js控制视频的全屏、播放暂停、静音、停止、快进快退、鼠标拖动进度条调节音量和播放进度、显示时长、控制播放和缓存进度。</p>
+        </div>
+        <div id="MC_fifth">
+            <h2>自我评价</h2>
+            <p class="text">作为一个刚走出大学校园的毕业生，深知自己在许多方面有不足之处。
+                但是，我有一颗学习和进取的心。在实际开发中没有太多的经验，希望通过自身的努力来提升自己的水平。
+                个人比较认真负责，喜欢独立思考解决问题。对工作和生活充满热情，能够主动的去学习和适应新鲜事物，希望自己日后能够独当一面。</p>
+        </div>
+    </div>
+    <footer-component></footer-component>
+    <backtotop-component></backtotop-component>
+</div>
+<script src="../utils/jquery-3.1.1.min.js"></script>
+<script src="../utils/bootstrap.min.js"></script>
+<script src="../utils/vue.js"></script>
+<script src="../commonPrototype/commonOperation.js"></script>
+<script src="../commonPrototype/template.js"></script>
+<script src="personalDiary.js"></script>
+</body>
+</html>
