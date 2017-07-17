@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>翻牌游戏</title>
+    <link rel="stylesheet" href="styles/tableStyle.css"/>
+    <link rel="stylesheet" href="styles/cardStyle.css"/>
+</head>
+<body>
+    <div id="times">
+        <span></span>
+        <input type="button" id="gameAgain" value="重新开始" onclick="history.go(0)" />
+    </div>
+    <div id="table">
+        <div class="cards">
+            <div class="cover front-card"></div>
+            <div class="cover reverse-card"></div>
+        </div>
+    </div>
+    <script src="jQuery/jquery-3.1.1.min.js"></script>
+    <script src="javaScripts/card.js"></script>
+</body>
+</html>

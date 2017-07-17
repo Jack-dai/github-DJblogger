@@ -1,0 +1,62 @@
+
+/*翻牌*/
+.sping .reverse-card
+{
+    z-index: 8;
+    -webkit-transform: rotateY(180deg);
+}
+.sping .front-card
+{
+    z-index: 10;
+    -webkit-transform: rotateY(0deg);
+}
+
+/*移除牌*/
+.cardRemove{
+    opacity: 0;
+}
+
+/*正面和反面*/
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition:all 0.5s;
+}
+.cover:hover{
+     -webkit-box-shadow:0 0 50px red;
+ }
+/*反面*/
+.reverse-card{
+    background: url("../imgs/deck.png") no-repeat;
+    background-position: 0 -480px;
+    z-index: 10;
+}
+
+/*正面*/
+.front-card{
+    background: url("../imgs/deck.png") no-repeat;
+    z-index: 8;
+    -webkit-transform:rotateY(180deg);
+}
+
+/*设置牌 红桃A、2、3 黑桃J、Q、K*/
+.heartA{
+    background-position: 0 -120px;
+}
+.heart2{
+    background-position: -80px -120px;
+}
+.heart3{
+    background-position: -160px -120px;
+}
+.spadeJ{
+    background-position: -800PX 0;
+}
+.spadeQ{
+    background-position: -880px 0;
+}
+.spadeK{
+    background-position: -960px 0;
+}
